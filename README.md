@@ -71,7 +71,7 @@ The core operational state of the system is governed by a **4-Phase State Engine
 ↓
 [ Phase 4: Grade Entry ] ➔ Professors input final grades & Transcripts update
 ↓
-(Cycle Restarts & Active Semester Increments: e.g., 1403-1 ➔ 1403-2)
+(Cycle Restarts & Active Semester Increments: e.g., 1406-1 ➔ 1406-2)
 
 ```
 
@@ -196,7 +196,7 @@ The application automatically creates and manages the following flat-file databa
            ↓
 [ فاز ۴: ثبت نمرات ] ➔ ورود نمرات توسط اساتید و به‌روزرسانی کارنامه
            ↓
-(ارتقای ترم تحصیلی و شروع مجدد چرخه: مثلاً ۱۴۰۳-۱ ➔ ۱۴۰۳-۲)
+(ارتقای ترم تحصیلی و شروع مجدد چرخه)
 
 ```
 
