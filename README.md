@@ -3,7 +3,6 @@
 
 این متن کامل فایل **`README.md`** است. کافی است روی دکمه‌ی **Copy** بالای کادر زیر کلیک کنید و آن را مستقیماً در ادیتور گیت‌هاب یا فایل `README.md` خود پیست (Paste) کنید:
 
-```markdown
 # 🎓 University Educational Management System (EDU System)
 ### سیستم جامع مدیریت آموزشی و انتخاب واحد دانشگاه
 
