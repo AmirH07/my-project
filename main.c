@@ -410,7 +410,7 @@ void advance_semester_phase(SystemState *sysState) {
 
         case PHASE_GRADE_ENTRY: {
             // End of semester -> Increment active semester
-            int year = 1403, term = 1;
+            int year = 1406, term = 1;
             sscanf(sysState->activeSemester, "%d-%d", &year, &term);
             
             if (term == 1) {
@@ -476,7 +476,7 @@ void offer_course_request(Professor *prof, Course catalog[], int catalog_count, 
     scanf(" %99[^\n]", off.classSchedule);
     clear_input_buffer();
 
-    printf("Exam Date (e.g., 1403-10-15): ");
+    printf("Exam Date (e.g., 1405-10-15): ");
     scanf(" %49s", off.examDate);
     clear_input_buffer();
 
@@ -1313,7 +1313,7 @@ void access_lms_professor(Professor *prof, CourseOffering offerings[], int offer
 }
 
 int main(void) {
-    SystemState sysState = {"1403-1", PHASE_COURSE_OFFERING};
+    SystemState sysState = {"1406-1", PHASE_COURSE_OFFERING};
 
     // Databases
 

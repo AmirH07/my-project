@@ -1,0 +1,11 @@
+10
+MATH101;Calculus_I;3;Mathematics;NONE
+MATH102;Calculus_II;3;Mathematics;MATH101
+PHYS101;General_Physics_I;3;Physics;NONE
+PHYS102;General_Physics_II;3;Physics;PHYS101
+ME101;Statics;3;Mechanical;PHYS101
+ME102;Dynamics;3;Mechanical;ME101
+ME201;Thermodynamics_I;3;Mechanical;PHYS101
+CS101;Fundamentals_of_Programming;3;Computer;NONE
+CS102;Advanced_Programming;3;Computer;CS101
+CS201;Data_Structures;3;Computer;CS102

@@ -1,0 +1,13 @@
+8 4
+S 404101234 pass123 Ali Rezaei Mechanical 1404 Engineering
+S 404102345 pass123 Mohammad Hosseini Mechanical 1404 Engineering
+S 402103456 pass123 Amir Karimi Mechanical 1402 Engineering
+S 401105678 pass456 Sara Ahmadi Computer 1401 Engineering
+S 402106789 pass456 Neda Hassani Computer 1402 Engineering
+S 400107890 pass456 Kaveh Rahimi Computer 1400 Engineering
+S 401108901 pass789 Reza Taghavi Electrical 1401 Engineering
+S 402109012 pass789 Maryam Pour Electrical 1402 Engineering
+P 990101 prof123 Hosein Mohammadi 1395 Engineering
+P 990102 prof123 Maryam Shafa 1398 Engineering
+P 990103 prof123 Babak Rostami 1392 Engineering
+P 990104 prof123 Zahra Tehrani 1400 Basic_Sciences

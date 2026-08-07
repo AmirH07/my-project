@@ -1,0 +1,8 @@
+7
+101;ME101;Statics;990101;Dr_Hosein_Mohammadi;35;3;Mon/Wed_08:00-09:30;1406-10-15;1
+102;ME102;Dynamics;990101;Dr_Hosein_Mohammadi;30;2;Sun/Tue_10:00-11:30;1406-10-18;1
+103;CS102;Advanced_Programming;990102;Dr_Maryam_Shafa;30;3;Sat/Mon_13:30-15:00;1406-10-20;1
+104;CS201;Data_Structures;990102;Dr_Maryam_Shafa;25;2;Sun/Tue_08:00-09:30;1406-10-22;1
+105;MATH101;Calculus_I;990104;Dr_Zahra_Tehrani;50;3;Sat/Mon_10:00-11:30;1406-10-12;1
+106;MATH102;Calculus_II;990104;Dr_Zahra_Tehrani;45;2;Sun/Tue_13:30-15:00;1406-10-14;1
+107;PHYS101;General_Physics_I;990103;Dr_Babak_Rostami;40;2;Mon/Wed_15:30-17:00;1406-10-16;1
