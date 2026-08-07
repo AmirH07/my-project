@@ -1020,7 +1020,6 @@ void manual_student_allocation(Student students[], int student_count,
            offering_id, offerings[offering_idx].title);
 }
 
-// Phase 3.3: Add Course Capacity (Deputy)
 void add_course_capacity(CourseOffering offerings[], int offering_count) {
     int offering_id, new_capacity;
 
@@ -1060,7 +1059,6 @@ void add_course_capacity(CourseOffering offerings[], int offering_count) {
     printf("✓ Capacity for Offering %d updated to %d successfully!\n", offering_id, new_capacity);
 }
 
-// Phase 3.3: Request/Apply capacity increase (Professor)
 void request_capacity_increase(Professor *prof, CourseOffering offerings[], int offering_count) {
     int offering_id, extra_seats;
 
@@ -1113,7 +1111,6 @@ void request_capacity_increase(Professor *prof, CourseOffering offerings[], int 
            offerings[idx].title, offerings[idx].capacity - extra_seats, offerings[idx].capacity);
 }
 
-// Phase 3.3: Cancel offering (Professor)
 void cancel_offering(Professor *prof, CourseOffering offerings[], int offering_count, 
                      Enrollment enrollments[], int *enrollment_count) {
     int offering_id;
@@ -1174,7 +1171,6 @@ void cancel_offering(Professor *prof, CourseOffering offerings[], int offering_c
     }
 }
 
-// Phase 7.1: Course Survey Evaluation (Student)
 void evaluate_professor_survey(Student *student, CourseOffering offerings[], int offering_count, 
                                Enrollment enrollments[], int enrollment_count) {
     printf("\n--- COURSE & PROFESSOR SURVEY EVALUATION ---\n");
@@ -1216,7 +1212,6 @@ void evaluate_professor_survey(Student *student, CourseOffering offerings[], int
     printf("✓ Thank you! Evaluation score (%d/5) submitted for Offering %d.\n", score, offering_id);
 }
 
-// Phase 7.1: View Survey Results (Professor)
 void view_survey_results(Professor *prof, CourseOffering offerings[], int offering_count) {
     printf("\n--- TEACHING SURVEY EVALUATION RESULTS ---\n");
     int count = 0;
@@ -1236,7 +1231,6 @@ void view_survey_results(Professor *prof, CourseOffering offerings[], int offeri
     }
 }
 
-// Phase 5.3: Doctoral Thesis Management (Student)
 void manage_doctoral_thesis(Student *student) {
     printf("\n--- DOCTORAL / GRADUATE THESIS MODULE ---\n");
     printf("Student: %s %s (ID: %s)\n", student->firstName, student->lastName, student->studentID);
@@ -1267,7 +1261,6 @@ void manage_doctoral_thesis(Student *student) {
     }
 }
 
-// Phase 7.2: LMS Access (Student)
 void access_lms_student(Student *student, CourseOffering offerings[], int offering_count, 
                         Enrollment enrollments[], int enrollment_count) {
     printf("\n--- LMS MODULE (STUDENT PORTAL) ---\n");
